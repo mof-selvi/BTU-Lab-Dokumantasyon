@@ -12,4 +12,5 @@
   olarak değiştirilir.
 - Imaj alma aşamasından sonra yeni yüklemelerde sadece cihaz adı değiştirilir.
   - Örneğin;
-      > lab2pc2
+    > lab2pc2
+
