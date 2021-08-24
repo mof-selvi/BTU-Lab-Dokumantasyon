@@ -2,8 +2,7 @@
 # BTU-Lab-Dokumantasyon
 **Bursa Teknik Üniversitesi Bilgisayar Mühendisliği bölüm laboratuvarlarındaki bilgisayarların kurulum aşamaları**
 
- - Windows yüklendi, kullanıcı adı bilmuh, cihaz adı ise lab2pc11 olarak
-   değiştirildi. (Yeni yüklemelerde sadece cihaz adı değiştirilecek.)
+ - [Windows yüklemesi](WindowsYuklemesi.md)
    
  - Windows için OpenSSH Server, Chocolatey ve Visual Studio Enterprise
    (.Net, C++, Nodejs, Python ve Unity araçları ile) yüklendi, VS
