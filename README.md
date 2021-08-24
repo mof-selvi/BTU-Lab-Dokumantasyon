@@ -14,7 +14,7 @@
 
 - Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
 
-- Windows Unity yüklemesi için Unity Hub indirilir ve son Unity Editor LTS sürümü yüklenir. Unity Hub indirme problemini gidermek için Windows güvenlik ayarlarına istisna eklenir. [Unity Hub indirme hatası](UnityHubFix.md)
+- Windows Unity yüklemesi için Unity Hub indirilir ve son Unity Editor LTS sürümü yüklenir. Unity Hub indirme problemini gidermek için Windows güvenlik ayarlarına istisna eklenir. [Unity Hub İndirme Hatası Çözümü](UnityHubFix.md)
 
 - Disk bölme işlemi Windows içi araçla yapılır
 
