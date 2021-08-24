@@ -35,21 +35,21 @@ Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
 
 - Linux'ta apt update&upgrade işlemleri sonrası giden GRUB ekranı için ayarlar:
 
- ```
- sudo nano /etc/default/grub
- ```
+	```
+	sudo nano /etc/default/grub
+	```
 
- ile nano üzerinden
+	ile nano üzerinden
 
 	> GRUB_TERMINAL=console
 
- satırı aktif edilir ve
- 
- ```
- sudo update-grub
- ```
+	satırı aktif edilir ve
 
- yapılır.
+	```
+	sudo update-grub
+	```
+
+	yapılır.
 
 - [Windows & Linux gerekli ortak programların yüklenmesi](OrtakProgramlar.md)
 
