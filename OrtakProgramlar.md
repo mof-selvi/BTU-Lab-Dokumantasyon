@@ -1,29 +1,31 @@
 **Gerekli ortak programlar ve kurulumları:**
 
+(Listelenen *chocolatey* komutları SSH üzerinden gönderildiğinde otomatik olarak masaüstünde kısayol oluşturmaktadır.)
+
 - Thonny
   - Windows:
   
-    ```choco install thonny```
+    ```choco install thonny -y```
   - Linux:
   
-    ```apt get install thonny```
+    ```apt get install thonny -y```
 
 - Codeblocks
   - Windows:
   
-    ```choco install codeblocks```
+    ```choco install codeblocks -y```
     
   - Linux:
   
     ```
-    apt-get install build-essential
-    apt-get install codeblocks
+    apt-get install build-essential -y
+    apt-get install codeblocks -y
     ```
     
 - Python
   - Windows:
   
-    ```choco install thonny```
+    ```choco install python -y```
     
   - Linux:
   
@@ -32,7 +34,7 @@
 - Libreoffice
   - Windows:
   
-    ```choco install libreoffice-still```
+    ```choco install libreoffice-still -y```
     
   - Linux:
   
@@ -41,7 +43,7 @@
 - Firefox
   - Windows:
   
-    ```choco ?```
+    ```choco install firefox -y```
     
   - Linux:
   
@@ -50,9 +52,9 @@
 - Chromium
   - Windows:
   
-    ```choco ?```
+    ```choco install chromium -y```
     
   - Linux:
   
-    ```apt ?```
+    ```apt install chromium-browser -y```
     
