@@ -11,7 +11,7 @@
   - Linux:
   
     ```
-    apt get install thonny -y
+    apt-get install thonny -y
     ```
 
 - Codeblocks
@@ -71,6 +71,6 @@
   - Linux:
   
     ```
-    apt install chromium-browser -y
+    apt-get install chromium-browser -y
     ```
     
