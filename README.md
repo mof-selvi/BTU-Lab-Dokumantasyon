@@ -21,12 +21,16 @@
  
  - Linux'ta apt update&upgrade işlemleri sonrası giden GRUB ekranı için
    ayar yapıldı:
-   ```sudo nano /etc/default/grub```
+   ```
+   sudo nano /etc/default/grub
+   ```
    ile nano üzerinden
 	> GRUB_TERMINAL=console
 
 	 satırı aktif edildi ve
-	 ```sudo update-grub```
+	 ```
+	 sudo update-grub
+	 ```
 	 yapıldı
  
  -  [Windows & Linux gerekli ortak programların yüklenmesi](OrtakProgramlar.md)
@@ -42,10 +46,12 @@
  - Backup imajının yeni makinede restore edilmesinin ardından GRUB
    ekranının gelmesi için
    
-	 - Windows'ta yönetici olarak cmd ile (ps'de çalışmıyor):
- ```bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi```
+	- Windows'ta yönetici olarak cmd ile (ps'de çalışmıyor):
+ 	```
+ 	bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+ 	```
       
-    - Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden    sudo update-grub yapmak gerekiyor.
+ 	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden    sudo update-grub yapmak gerekiyor.
 
    
  - Imaj yükleme işleminin ardından hem Windows hem de Linux içerisinde
@@ -57,11 +63,15 @@
    
    Linuxta:
    
-	```rm ~/.ssh/known_hosts```
+	```
+	rm ~/.ssh/known_hosts
+	```
 
    Windowsta
    
-  	 ```rm .\.ssh\known_hosts```
+	```
+ 	rm .\.ssh\known_hosts
+	```
 
    
 
