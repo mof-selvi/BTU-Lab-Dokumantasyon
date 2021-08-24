@@ -72,9 +72,11 @@ Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
 		```
 
 	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
+	
 		```
 		sudo update-grub
 		```
+
 		yapılır.
 
    
@@ -88,13 +90,13 @@ Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
 	```
 	komutu 2. lab 1. bilgisayara bağlanılabilir. Fakat önceki güvenlik anahtarlarını silmek gerekebilmektedir.
   
-	Linuxta:
+	Linux'ta:
 
 	```
 	rm ~/.ssh/known_hosts
 	```
 
-	Windowsta
+	Windows'ta
 
 	```
 	rm .\.ssh\known_hosts
