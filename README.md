@@ -5,12 +5,14 @@
 - [Windows yüklemesi](WindowsYuklemesi.md)
 
 - Windows için
+
 	- OpenSSH Server
 	- Chocolatey
 	- Visual Studio Enterprise (.Net, C++, Nodejs, Python ve Unity araçları ile)
-	yüklenir
+	
+	yüklenir.
 
-Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
+- Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
 
 - Windows Unity yüklemesi için Unity Hub indirilir ve son Unity Editor LTS sürümü yüklenir. Unity Hub indirme problemini gidermek için Windows güvenlik ayarlarına istisna eklenir. [Çözüm sayfası](https://forum.unity.com/threads/unity-hub-not-installing-the-editor-on-windows-10.724400/#post-5169140)
 
