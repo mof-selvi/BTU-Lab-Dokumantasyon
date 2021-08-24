@@ -7,7 +7,9 @@
  - Windows için OpenSSH Server, Chocolatey ve Visual Studio Enterprise
    (.Net, C++, Nodejs, Python ve Unity araçları ile) yüklendi, VS
    lisansı ve Windows 10 Pro lisansları girildi
- 
+   
+ -  Windows Unity yüklemesi için Unity Hub indirilir ve son Unity Editor LTS sürümü yüklenir. Unity Hub indirme problemini gidermek için Windows güvenlik ayarlarına istisna eklenir. [Çözüm sayfası](https://forum.unity.com/threads/unity-hub-not-installing-the-editor-on-windows-10.724400/#post-5169140)
+
  - Disk bölme işlemi Windows içi araçla yapıldı (150GB Windows + 100GB
    Linux Mint)
  
@@ -26,6 +28,8 @@
 	 satırı aktif edildi ve
 	 ```sudo update-grub```
 	 yapıldı
+ 
+ -  [Windows & Linux gerekli ortak programların yüklenmesi](OrtakProgramlar.md)
  
  - Disk imajı alabilmek için Windows'un hızlı başlatma özelliği
    (hibernate) kapatıldı, ps'de yönetici modunda: powercfg -h off
