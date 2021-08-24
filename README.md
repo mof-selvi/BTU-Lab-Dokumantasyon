@@ -1,5 +1,5 @@
 
-# BTU-Lab-Dokumantasyon
+# BTU-Lab-Dokumantasyon (\*düzenleniyor)
 **Bursa Teknik Üniversitesi Bilgisayar Mühendisliği bölüm laboratuvarlarındaki bilgisayarların kurulum aşamaları**
 
  - [Windows yüklemesi](WindowsYuklemesi.md)
