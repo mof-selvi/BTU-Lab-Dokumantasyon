@@ -57,7 +57,8 @@
 	```rm ~/.ssh/known_hosts```
 
    Windowsta
-   ```rm .\.ssh\known_hosts```
+   
+  	 ```rm .\.ssh\known_hosts```
 
    
 
