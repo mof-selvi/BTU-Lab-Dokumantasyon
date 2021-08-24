@@ -4,18 +4,27 @@
 
  - [Windows yüklemesi](WindowsYuklemesi.md)
    
- - Windows için OpenSSH Server, Chocolatey ve Visual Studio Enterprise
-   (.Net, C++, Nodejs, Python ve Unity araçları ile) yüklendi, VS
-   lisansı ve Windows 10 Pro lisansları girilir
+ - Windows için
+ 	- OpenSSH Server
+ 	- Chocolatey
+ 	- Visual Studio Enterprise (.Net, C++, Nodejs, Python ve Unity araçları ile)
+ 	yüklenir
+	
+	Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
    
  -  Windows Unity yüklemesi için Unity Hub indirilir ve son Unity Editor LTS sürümü yüklenir. Unity Hub indirme problemini gidermek için Windows güvenlik ayarlarına istisna eklenir. [Çözüm sayfası](https://forum.unity.com/threads/unity-hub-not-installing-the-editor-on-windows-10.724400/#post-5169140)
 
- - Disk bölme işlemi Windows içi araçla yapıldı (150GB Windows + 100GB
-   Linux Mint)
+ - Disk bölme işlemi Windows içi araçla yapılır
+ 	> 150GB Windows
+ 	> 100GB Linux Mint
  
- - Linux Mint kuruldu (2GB swap için ayrılarak) Kullanıcı adı bilmuh,
-   cihaz adı lab2pc11 şeklinde ayarlandı. (Yeni yüklemelerde sadece
-   cihaz adı değiştirilecek.)
+ - Linux Mint kurulur (2GB swap için ayrılarak)
+ 	Kullanıcı adı
+	> bilmuh
+   	cihaz adı
+	> lab2pc1
+	şeklinde ayarlanır.
+	(İmaj yüklemelerinde sadece cihaz adı değiştirilir.)
  
  - BTU logolu arkaplanlar yerleştirildi
  
