@@ -3,10 +3,12 @@
 - Disk bilgisayara takıldıktan sonra yazdırılacak Windows.iso dosyası seçilir ve varsayılan ayarlarla biçimlendirme ve yazdırma işlemi yapılır.
 - Disk kurulum yapılacak cihaza takılır. Cihaz başlatılırken F12 ile boot edilecek aygıt seçilir.
 - Windows yüklenir.
-  - Kullanıcı adı 
-    > bilmuh
+  - Kullanıcı adı
+      > bilmuh
+  
   -  cihaz adı ise
-    > lab2pc1
+      > lab2pc1
+  
   olarak değiştirilir.
 - Imaj alma aşamasından sonra yeni yüklemelerde sadece cihaz adı değiştirilir.
   - Örneğin;
