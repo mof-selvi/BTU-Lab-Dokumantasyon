@@ -11,7 +11,7 @@
   - Linux:
   
     ```
-    apt-get install thonny -y
+    sudo apt-get install thonny -y
     ```
 
 - Codeblocks
@@ -24,8 +24,8 @@
   - Linux:
   
     ```
-    apt-get install build-essential -y
-    apt-get install codeblocks -y
+    sudo apt-get install build-essential -y
+    sudo apt-get install codeblocks -y
     ```
     
 - Python
@@ -71,6 +71,6 @@
   - Linux:
   
     ```
-    apt-get install chromium-browser -y
+    sudo apt-get install chromium-browser -y
     ```
     
