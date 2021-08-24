@@ -5,15 +5,21 @@
 - Thonny
   - Windows:
   
-    ```choco install thonny -y```
+    ```
+    choco install thonny -y
+    ```
   - Linux:
   
-    ```apt get install thonny -y```
+    ```
+    apt get install thonny -y
+    ```
 
 - Codeblocks
   - Windows:
   
-    ```choco install codeblocks -y```
+    ```
+    choco install codeblocks -y
+    ```
     
   - Linux:
   
@@ -25,7 +31,9 @@
 - Python
   - Windows:
   
-    ```choco install python -y```
+    ```
+    choco install python -y
+    ```
     
   - Linux:
   
@@ -34,7 +42,9 @@
 - Libreoffice
   - Windows:
   
-    ```choco install libreoffice-still -y```
+    ```
+    choco install libreoffice-still -y
+    ```
     
   - Linux:
   
@@ -43,7 +53,9 @@
 - Firefox
   - Windows:
   
-    ```choco install firefox -y```
+    ```
+    choco install firefox -y
+    ```
     
   - Linux:
   
@@ -52,9 +64,13 @@
 - Chromium
   - Windows:
   
-    ```choco install chromium -y```
+    ```
+    choco install chromium -y
+    ```
     
   - Linux:
   
-    ```apt install chromium-browser -y```
+    ```
+    apt install chromium-browser -y
+    ```
     
