@@ -4,10 +4,10 @@
 - Disk kurulum yapılacak cihaza takılır. Cihaz başlatılırken F12 ile boot edilecek aygıt seçilir.
 - Windows yüklenir.
   - Kullanıcı adı 
-  > bilmuh
+    > bilmuh
   -  cihaz adı ise
-  > lab2pc1
+    > lab2pc1
   - olarak değiştirilir.
 - Imaj alma aşamasından sonra yeni yüklemelerde sadece cihaz adı değiştirilir.
   - Örneğin;
-  - > lab2pc2
+    > lab2pc2
