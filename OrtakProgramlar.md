@@ -78,7 +78,7 @@
   - Windows:
   
     ```
-    choco install octave -y
+    choco install octave.portable -y
     ```
     
   - Linux:
