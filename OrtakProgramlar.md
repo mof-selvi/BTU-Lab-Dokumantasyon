@@ -74,3 +74,16 @@
     sudo apt-get install chromium-browser -y
     ```
     
+- Octave
+  - Windows:
+  
+    ```
+    choco install octave -y
+    ```
+    
+  - Linux:
+  
+    ```
+    sudo apt-get install octave octave-control octave-image octave-io octave-optim octave-signal octave-statistics octave-doc octave-info octave-htmldoc octave-dbg -y
+    ```
+    
