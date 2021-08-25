@@ -87,4 +87,33 @@
     sudo apt-get install octave octave-control octave-image octave-io octave-optim octave-signal octave-statistics octave-doc octave-info octave-htmldoc -y
     ```
     
+- 7zip
+  - Windows:
+  
+    ```
+    choco install 7zip -y
+    ```
+    
+  - Linux:
+  
+    ```
+    sudo apt-get install p7zip-full -y
+    ```
+    
+- 7zip
+  - Windows:
+  
+    ```
+    choco install 7zip -y
+    ```
+    
+  - Linux:
+  
+    ```
+    sudo apt-get install p7zip-full -y
+    ```
+
+- Emu8086
+  - Yalnızca Windows:
+    > Kurulum dosyalarını kullanınız
 
