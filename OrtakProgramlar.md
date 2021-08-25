@@ -99,19 +99,6 @@
     ```
     sudo apt-get install p7zip-full -y
     ```
-    
-- 7zip
-  - Windows:
-  
-    ```
-    choco install 7zip -y
-    ```
-    
-  - Linux:
-  
-    ```
-    sudo apt-get install p7zip-full -y
-    ```
 
 - Emu8086
   - Yalnızca Windows:
