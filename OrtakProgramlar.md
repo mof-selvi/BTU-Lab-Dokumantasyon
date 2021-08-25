@@ -115,5 +115,6 @@
 
 - Emu8086
   - Yalnızca Windows:
+  
     > Kurulum dosyalarını kullanınız
 
