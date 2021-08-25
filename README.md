@@ -33,7 +33,7 @@
 
 	şeklinde ayarlanır. (İmaj yüklemelerinde sadece cihaz adı değiştirilir.)
 
-- BTU logolu arkaplanlar yerleştirilir.
+- [BTU logolu arkaplan](btu.png) yerleştirilir.
 
 - Linux'ta apt update&upgrade işlemleri sonrası giden GRUB ekranı için ayarlar:
 
