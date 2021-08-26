@@ -1,5 +1,5 @@
 
-# BTU BM Lab Kurulum Dökümantasyonu (\*düzenleniyor)
+# BTU BM Lab Kurulum Dökümantasyonu
 **Bursa Teknik Üniversitesi Bilgisayar Mühendisliği bölüm laboratuvarlarındaki bilgisayarların kurulum aşamaları**
 
 # Imaj oluşturma
