@@ -99,6 +99,20 @@
     ```
     sudo apt-get install p7zip-full -y
     ```
+    
+- VLC
+  - Windows:
+  
+    ```
+    choco install vlc -y
+    ```
+    
+  - Linux:
+  
+    ```
+    sudo apt install vlc -y
+    ```
+
 
 - Emu8086
   - Yalnızca Windows:
