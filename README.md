@@ -2,6 +2,8 @@
 # BTU BM Lab Kurulum Dökümantasyonu (\*düzenleniyor)
 **Bursa Teknik Üniversitesi Bilgisayar Mühendisliği bölüm laboratuvarlarındaki bilgisayarların kurulum aşamaları**
 
+# Imaj oluşturma
+
 - [Windows yüklemesi](WindowsYuklemesi.md)
 
 - Windows için
@@ -66,6 +68,14 @@
  	(Ayarlar kısmındaki arayüzden iptal etmek işe yaramayacaktır.)
 
 - Rescuezilla ile full disk backup'ı alınır.
+
+
+
+
+
+
+
+# Oluşturulan imajın diğer bilgisayarlara aktarımı
 
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
