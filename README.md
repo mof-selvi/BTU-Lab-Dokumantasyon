@@ -55,6 +55,8 @@
 
 - [Windows & Linux gerekli ortak programların yüklenmesi](OrtakProgramlar.md)
 
+- [Windows fontlarının Linux'a yüklenmesi](Fontlar.md)
+
 - Disk imajı alabilmek için Windows'un hızlı başlatma özelliği (hibernate) kapatılır. PS'de yönetici modunda:
 
 	 ```
