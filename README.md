@@ -81,7 +81,9 @@
    
 	 - Windows'ta yönetici olarak cmd ile (ps'de çalışmıyor):
 		```
+		bcdedit /enum firmware
 		bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+		bcdedit /displayorder {bootmgr} /addfirst
 		```
 		veya yönetici olarak Powershell'de:
 		```
