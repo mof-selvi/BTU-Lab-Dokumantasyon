@@ -79,20 +79,7 @@
 
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
-	 - Windows'ta yönetici olarak cmd ile:
-		```
-		bcdedit /enum firmware
-		```
-		ile boot yöntemleri listelenir. İçlerinden Windows'a ait olanların ID değerleri alınıp bu seçenekler en sona atılır:
-		```
-		bcdedit /displayorder {windows-bootmgfw-id} /addlast
-		```
-		
-		Alternatif olarak aşağıdaki de uygulanabilir:
-		```
-		bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
-		bcdedit /displayorder {bootmgr} /addfirst
-		```
+	 - Windows'ta SetupWindows klasöründeki .bat dosyasını yönetici olarak çalıştırılır. Yeni bilgisayar ismi girildikten sonra bilgisayar kapatılır.
 
 	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
 	
