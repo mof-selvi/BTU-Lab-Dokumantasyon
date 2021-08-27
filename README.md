@@ -80,9 +80,12 @@
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
 	 - Windows'ta yönetici olarak cmd ile (ps'de çalışmıyor):
-
 		```
 		bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+		```
+		veya yönetici olarak Powershell'de:
+		```
+		bcdedit /set "{bootmgr}" path \EFI\ubuntu\grubx64.efi
 		```
 
 	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
