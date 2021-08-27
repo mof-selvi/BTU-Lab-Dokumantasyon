@@ -97,19 +97,17 @@
 - Imaj yükleme işleminin ardından hem Windows hem de Linux içerisinde
  bilgisayar adını, numarasına uygun şekilde değiştirmek SSH
  bağlantısının sorunsuz kurulabilmesi için gereklidir.
- 		
-		- Linux'ta:
-				```
-				sudo nano /etc/hosts
-				```
-				ile hosts dosyasındaki eski isim yerine lab2pc2 ve
-				```
-				sudo hostnamectl set-hostname lab2pc2
-				```
-				komutu ile lab2pc2 host ismi verilirse, bilgisayar ağda lab2pc2 olarak görünmeye başlayacaktır.
-		
-		- Windows'ta:
-			Ayarlardan bilgisayar adını değiştir butonunu kullanıp yeniden başlatılır.
+	- Linux'ta:
+		```
+		sudo nano /etc/hosts
+		```
+		ile hosts dosyasındaki eski isim yerine lab2pc2 ve
+		```
+		sudo hostnamectl set-hostname lab2pc2
+		```
+		komutu ile lab2pc2 host ismi verilirse, bilgisayar ağda lab2pc2 olarak görünmeye başlayacaktır.
+	- Windows'ta:
+		Ayarlardan bilgisayar adını değiştir butonunu kullanıp yeniden başlatılır.
 
 - Hem shell'de hem de powershell'de
 	```
