@@ -79,15 +79,19 @@
 
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
-	 - Windows'ta yönetici olarak cmd ile (ps'de çalışmıyor):
+	 - Windows'ta yönetici olarak cmd ile:
 		```
 		bcdedit /enum firmware
+		```
+		ile boot yöntemleri listelenir. İçlerinden Windows'a ait olanların ID değerleri alınıp bu seçenekler en sona atılır:
+		```
+		bcdedit /displayorder {windows-bootmgfw-id} /addlast
+		```
+		
+		Alternatif olarak aşağıdaki de uygulanabilir:
+		```
 		bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
 		bcdedit /displayorder {bootmgr} /addfirst
-		```
-		veya yönetici olarak Powershell'de:
-		```
-		bcdedit /set "{bootmgr}" path \EFI\ubuntu\grubx64.efi
 		```
 
 	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
@@ -95,7 +99,6 @@
 		```
 		sudo update-grub
 		```
-
 		yapılır.
 
    
