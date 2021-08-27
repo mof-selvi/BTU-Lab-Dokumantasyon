@@ -79,7 +79,7 @@
 
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
-	 - Windows'ta [SetupWindows](SetupWindows) klasöründeki .bat dosyasını yönetici olarak çalıştırılır. Yeni bilgisayar ismi girildikten sonra bilgisayar kapatılır.
+	 - Windows'ta [SetupWindows](SetupWindows) klasöründeki .bat dosyası yönetici olarak çalıştırılır. Yeni bilgisayar ismi girildikten sonra bilgisayar kapatılır.
 
 	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
 	
