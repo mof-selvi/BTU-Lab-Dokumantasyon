@@ -117,5 +117,5 @@
 - Emu8086
   - Yalnızca Windows:
   
-    > Kurulum dosyalarını (emu8086v408r11-setup.exe)[emu8086v408r11-setup.exe] kullanınız.
+    > Kurulum dosyalarını [emu8086v408r11-setup.exe](emu8086v408r11-setup.exe) kullanınız.
 
