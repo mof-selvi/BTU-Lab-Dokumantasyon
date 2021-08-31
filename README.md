@@ -82,29 +82,31 @@
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
 	 - Windows'ta [SetupWindows](SetupWindows) klasöründeki .bat dosyası yönetici olarak çalıştırılır. Yeni bilgisayar ismi girildikten sonra bilgisayar kapatılır.
-
-	- Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
-	
-		```
-		sudo update-grub
-		```
-		yapılır.
-
-   
-- Imaj yükleme işleminin ardından hem Windows hem de Linux içerisinde
- bilgisayar adını, numarasına uygun şekilde değiştirmek SSH
- bağlantısının sorunsuz kurulabilmesi için gereklidir.
-	- Linux'ta:
-		```
-		sudo nano /etc/hosts
-		```
-		ile hosts dosyasındaki eski isim yerine lab2pc2 ve
-		```
-		sudo hostnamectl set-hostname lab2pc2
-		```
-		komutu ile lab2pc2 host ismi verilirse, bilgisayar ağda lab2pc2 olarak görünmeye başlayacaktır.
-	- Windows'ta:
-		Ayarlardan bilgisayar adını değiştir butonunu kullanıp yeniden başlatılır.
+	 - Linux'ta bilmuh dizininde [SetupLinux.sh](SetupLinux.sh) dosyası çalıştırılır. Yeni bilgisayar ismi girilir.
+	 
+	 
+	 	> Alternatif olarak:
+	 	> - Yaptıktan sonra F12 ile Linux'a (ubuntu yazıyor) boot edip shellden
+	 	> - 
+		>	```
+		>	sudo update-grub
+		>	```
+		>	yapılır.
+		>	
+		> - Imaj yükleme işleminin ardından hem Windows hem de Linux içerisinde
+		> bilgisayar adını, numarasına uygun şekilde değiştirmek SSH
+		> bağlantısının sorunsuz kurulabilmesi için gereklidir.
+		>	- Linux'ta:
+		>		```
+		>		sudo nano /etc/hosts
+		>		```
+		>		ile hosts dosyasındaki eski isim yerine lab2pc2 ve
+		>		```
+		>		sudo hostnamectl set-hostname lab2pc2
+		>		```
+		>		komutu ile lab2pc2 host ismi verilirse, bilgisayar ağda lab2pc2 olarak görünmeye başlayacaktır.
+		>	- Windows'ta:
+		>		Ayarlardan bilgisayar adını değiştir butonunu kullanıp yeniden başlatılır.
 
 - Hem shell'de hem de powershell'de
 	```
