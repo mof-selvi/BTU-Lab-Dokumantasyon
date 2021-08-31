@@ -10,9 +10,11 @@
 
 	- OpenSSH Server
 	- Chocolatey
-	- Visual Studio Enterprise (.Net, C++, Nodejs, Python ve Unity araçları ile)
+	- Visual Studio Enterprise (.Net, SQL, C++, Nodejs, Python ve Unity araçları ile)
+	- IIS (Denetim masası \> Programlar \> Windows özelliklerini aç veya kapat)
+	- SQL Server
 	
-	yüklenir.
+	yüklenir. *(Visual Studio ve SQL Server, Azure portalından lisanslı olarak indirilir.)*
 
 - Visual Studio lisansı ve Windows 10 Pro lisansı girilir.
 
