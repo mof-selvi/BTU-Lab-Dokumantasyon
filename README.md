@@ -81,7 +81,7 @@
 
 - Backup imajının yeni makinede restore edilmesinin ardından GRUB ekranının gelmesi için
    
-	 - Windows'ta [SetupWindows](SetupWindows) klasöründeki .bat dosyası yönetici olarak çalıştırılır. Yeni bilgisayar ismi girildikten sonra bilgisayar kapatılır.
+	 - Windows'ta C:\ ana dizininde bulunan [SetupWindows](SetupWindows) klasöründeki .bat dosyası yönetici olarak çalıştırılır. Yeni bilgisayar ismi girildikten sonra bilgisayar kapatılır.
 	 - Linux'ta bilmuh dizininde [SetupLinux.sh](SetupLinux.sh) dosyası çalıştırılır. Yeni bilgisayar ismi girilir.
 	 
 	 
