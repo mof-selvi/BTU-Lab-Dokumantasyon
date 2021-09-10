@@ -129,3 +129,15 @@
    
 
 
+
+- Windows'ta .ps1 dosyalarının Powershell'de çalıştırılabilmesi için yönetici olarak Powershell'de:
+ ```
+ Set-ExecutionPolicy RemoteSigned
+ ```
+ 
+ çalıştırılır. Bu işlem şu komutla geri alınabilir:
+ ```
+ Set-ExecutionPolicy Restricted
+ ```
+ 
+
