@@ -141,3 +141,4 @@
 	 ```
 
 
+- [VNC Kurulumu](VNC.md)
