@@ -21,7 +21,7 @@ Requires=display-manager.service
 After=display-manager.service
 
 [Service]
-ExecStart=/usr/bin/x11vnc -loop -nopw -xkb -repeat -noxrecord -noxfixes -noxdamage -forever -rfbport 5900 -display :0 -auth guess -viewonly
+ExecStart=/usr/bin/x11vnc -loop -nopw -xkb -repeat -noxrecord -noxfixes -noxdamage -shared -forever -rfbport 5900 -display :0 -auth guess -viewonly
 ExecStop=/usr/bin/killall x11vnc
 Restart=on-failure
 RestartSec=2
