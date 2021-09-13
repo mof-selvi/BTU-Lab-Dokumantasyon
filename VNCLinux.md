@@ -37,3 +37,8 @@ sudo systemctl enable x11vnc.service
 ```
 
 Bilgisayar yeniden başlatıldığında hoca bilgisayarının ekranı lab2teacher.local:5900 üzerinden view-only modda görüntülenebilir olacaktır.
+
+netstat komutuyla 5900, 5901 gibi portlarının dinlemede olup olmadığı görülebilir.
+```
+sudo netstat -plutn | grep :590
+```
