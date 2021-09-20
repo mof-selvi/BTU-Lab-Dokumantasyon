@@ -142,3 +142,6 @@
 
 
 - [VNC Kurulumu](VNC.md)
+
+- [Bilgisayarları Topluca Kapama](Kapat.md)
+
