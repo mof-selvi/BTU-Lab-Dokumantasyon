@@ -1,0 +1,18 @@
+sudo apt install xtightvncviewer -y
+
+
+
+
+
+
+
+
+scp -r LinLab1\* lab1pc12.local:~/Masaüstü/IZLE
+chmod +x ~/Masaüstü/IZLE
+
+
+scp -r LinLab2\* lab2pc12.local:~/Masaüstü/IZLE
+chmod +x ~/Masaüstü/IZLE
+
+
+

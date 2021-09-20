@@ -1,0 +1,12 @@
+
+
+scp -r WinLab1\* lab1pc12.local:VNC
+scp -r IZLE.bat lab1pc12.local:Desktop/IZLE.bat
+
+
+
+
+scp -r WinLab2\* lab2pc12.local:VNC
+scp -r IZLE.bat lab2pc12.local:Desktop/IZLE.bat
+
+
