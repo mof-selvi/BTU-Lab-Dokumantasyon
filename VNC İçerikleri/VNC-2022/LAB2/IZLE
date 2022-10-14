@@ -1,0 +1,2 @@
+echo vnc | vncviewer lab2teacher.local -autopass
+
