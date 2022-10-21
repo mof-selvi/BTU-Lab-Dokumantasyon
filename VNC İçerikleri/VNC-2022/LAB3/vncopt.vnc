@@ -1,6 +1,6 @@
 [Connection]
 Host=lab3teacher
-Password=91bc75c18d3d85a7
+Password=072da35f955669ba
 [Options]
 UseLocalCursor=1
 UseDesktopResize=1
@@ -10,11 +10,11 @@ LowColourLevel=1
 PreferredEncoding=hextile
 AutoSelect=1
 Shared=0
-SendPtrEvents=1
-SendKeyEvents=1
-SendCutText=1
-AcceptCutText=1
-DisableWinKeys=1
+SendPtrEvents=0
+SendKeyEvents=0
+SendCutText=0
+AcceptCutText=0
+DisableWinKeys=0
 Emulate3=0
 PointerEventInterval=0
 Monitor=\\.\DISPLAY1
