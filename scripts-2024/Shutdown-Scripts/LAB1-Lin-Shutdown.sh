@@ -1,4 +1,4 @@
-rm -f .ssh/known_hosts
+rm -f ~/.ssh/known_hosts
 LABNO=1
 MAXPC=55
 for (( i = 1; i <= $MAXPC; i++ ))
